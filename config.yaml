@@ -1,0 +1,27 @@
+seed: 42
+seeds_repetition: [42, 123, 2026]
+
+paths:
+  data_dir: "./data"                       # raiz comum; usada para gravar caminhos relativos nos scores.csv
+  iitd_root: "./data/IITD_Iris"            # Pasta com subpastas 001, 002, ..., 224
+  casia_root: "./data/CASIA-Iris-Interval" # Pasta com subpastas 001, 002, ...
+  protocols_dir: "./protocols"
+  results_dir: "./results"
+
+model:
+  backbone: "mobilenet_v3_small"
+  pretrained: true
+  embedding_dim: 128
+  freeze_backbone: false         # false = fine-tuning completo; true = apenas cabeça
+
+preprocess:
+  use_rubber_sheet: true         # mude para false no Estudo de Ablação!
+  img_size: [128, 128]           # [H, W] - se rubber sheet, pode ser [64, 256]
+
+train:
+  batch_size: 32
+  epochs: 25
+  lr: 0.0005
+  weight_decay: 0.0001
+  scale_s: 30.0                  # Escala CosFace
+  margin_m: 0.30                 # Margem angular (CosFace)

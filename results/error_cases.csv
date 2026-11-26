@@ -1,0 +1,7 @@
+amostra_1,amostra_2,tipo,score,erro_tipo
+./data/IITD_Iris\155\05_L.bmp,./data/IITD_Iris\115\08_R.bmp,impostor,0.458955854177475,False Match
+./data/IITD_Iris\071\05_L.bmp,./data/IITD_Iris\130\05_L.bmp,impostor,0.4562225937843323,False Match
+./data/IITD_Iris\140\08_R.bmp,./data/IITD_Iris\217\01_L.bmp,impostor,0.4518433213233948,False Match
+./data/IITD_Iris\167\01_L.bmp,./data/IITD_Iris\167\03_L.bmp,genuine,-0.1208377331495285,False Non-Match
+./data/IITD_Iris\180\06_R.bmp,./data/IITD_Iris\180\08_R.bmp,genuine,-0.11263017356395721,False Non-Match
+./data/IITD_Iris\180\06_R.bmp,./data/IITD_Iris\180\09_R.bmp,genuine,-0.11172506213188171,False Non-Match

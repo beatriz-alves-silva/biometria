@@ -1,0 +1,7 @@
+amostra_1,amostra_2,tipo,score,erro_tipo
+./data/CASIA-Iris-Interval\074\L\S1074L02.jpg,./data/CASIA-Iris-Interval\044\R\S1044R01.jpg,impostor,0.7792555689811707,False Match
+./data/CASIA-Iris-Interval\061\R\S1061R05.jpg,./data/CASIA-Iris-Interval\050\L\S1050L04.jpg,impostor,0.7505449056625366,False Match
+./data/CASIA-Iris-Interval\205\R\S1205R02.jpg,./data/CASIA-Iris-Interval\044\R\S1044R01.jpg,impostor,0.7378325462341309,False Match
+./data/CASIA-Iris-Interval\070\R\S1070R04.jpg,./data/CASIA-Iris-Interval\070\R\S1070R06.jpg,genuine,-0.2005290687084198,False Non-Match
+./data/CASIA-Iris-Interval\146\L\S1146L03.jpg,./data/CASIA-Iris-Interval\146\L\S1146L05.jpg,genuine,-0.12826532125473022,False Non-Match
+./data/CASIA-Iris-Interval\070\L\S1070L01.jpg,./data/CASIA-Iris-Interval\070\L\S1070L06.jpg,genuine,-0.1224813386797905,False Non-Match

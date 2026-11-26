@@ -1,0 +1,201 @@
+{
+    "info": {
+        "CNN": "mobilenet_v3_small",
+        "Pre_treinamento": "ImageNet",
+        "Num_parametros": 1289376,
+        "Dimensao_embedding": 128,
+        "Matching": "Similaridade de cosseno (embeddings L2-normalizados)",
+        "Regra_threshold": "EER na validação do IITD, congelado antes do teste",
+        "Rubber_Sheet": true,
+        "Modo_ablacao": "completo",
+        "Hardware": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+        "Seeds": [
+            42,
+            123,
+            2026
+        ],
+        "Seed_dos_graficos": 42
+    },
+    "thresholds": {
+        "42": {
+            "threshold": 0.42018306255340576,
+            "val_EER": 0.00046608130532987306
+        },
+        "123": {
+            "threshold": 0.447739839553833,
+            "val_EER": 0.00037878692473929955
+        },
+        "2026": {
+            "threshold": 0.4411177933216095,
+            "val_EER": 0.0009270121661764533
+        }
+    },
+    "IITD": {
+        "per_seed": {
+            "42": {
+                "EER": 0.1136430127606598,
+                "AUC": 0.950392156862745,
+                "Threshold": 0.42018306255340576,
+                "FMR": 0.0017647058823529412,
+                "FNMR": 0.23015873015873015,
+                "TAR_at_FAR_1pct": 0.8306878306878307,
+                "N_genuine": 756,
+                "N_impostor": 3400,
+                "FTA": 0.0,
+                "pares_descartados": 0,
+                "Tempo_inferencia_ms": 15.666830588495085,
+                "Tempo_total_com_preproc_ms": 19.75855852917234,
+                "Num_parametros": 1289376,
+                "Tamanho_modelo_MB": 5.053572654724121
+            },
+            "123": {
+                "EER": 0.09680983504512913,
+                "AUC": 0.9503894335511982,
+                "Threshold": 0.447739839553833,
+                "FMR": 0.0008823529411764706,
+                "FNMR": 0.23148148148148148,
+                "TAR_at_FAR_1pct": 0.832010582010582,
+                "N_genuine": 756,
+                "N_impostor": 3400,
+                "FTA": 0.0,
+                "pares_descartados": 0,
+                "Tempo_inferencia_ms": 15.562076176951557,
+                "Tempo_total_com_preproc_ms": 19.514468824576504,
+                "Num_parametros": 1289376,
+                "Tamanho_modelo_MB": 5.053820610046387
+            },
+            "2026": {
+                "EER": 0.11180516651104887,
+                "AUC": 0.9427641612200436,
+                "Threshold": 0.4411177933216095,
+                "FMR": 0.0002941176470588235,
+                "FNMR": 0.23015873015873015,
+                "TAR_at_FAR_1pct": 0.8333333333333334,
+                "N_genuine": 756,
+                "N_impostor": 3400,
+                "FTA": 0.0,
+                "pares_descartados": 0,
+                "Tempo_inferencia_ms": 16.722039116960815,
+                "Tempo_total_com_preproc_ms": 20.885557058414527,
+                "Num_parametros": 1289376,
+                "Tamanho_modelo_MB": 5.054068565368652
+            }
+        },
+        "mean": {
+            "EER": 0.1074193381056126,
+            "AUC": 0.9478485838779956,
+            "Threshold": 0.4363468984762828,
+            "FMR": 0.0009803921568627453,
+            "FNMR": 0.2305996472663139,
+            "TAR_at_FAR_1pct": 0.832010582010582,
+            "N_genuine": 756.0,
+            "N_impostor": 3400.0,
+            "FTA": 0.0,
+            "pares_descartados": 0.0,
+            "Tempo_inferencia_ms": 15.983648627469151,
+            "Tempo_total_com_preproc_ms": 20.052861470721123,
+            "Num_parametros": 1289376.0,
+            "Tamanho_modelo_MB": 5.053820610046387
+        },
+        "std": {
+            "EER": 0.00923393665248513,
+            "AUC": 0.004403239395902564,
+            "Threshold": 0.014384542671968857,
+            "FMR": 0.0007401798465951716,
+            "FNMR": 0.0007636908322614177,
+            "TAR_at_FAR_1pct": 0.0013227513227513366,
+            "N_genuine": 0.0,
+            "N_impostor": 0.0,
+            "FTA": 0.0,
+            "pares_descartados": 0.0,
+            "Tempo_inferencia_ms": 0.6416063886163079,
+            "Tempo_total_com_preproc_ms": 0.7313900479877117,
+            "Num_parametros": 0.0,
+            "Tamanho_modelo_MB": 0.000247955322265625
+        }
+    },
+    "CASIA": {
+        "per_seed": {
+            "42": {
+                "EER": 0.26112163698370594,
+                "AUC": 0.8107912174457104,
+                "Threshold": 0.42018306255340576,
+                "FMR": 0.20591133004926107,
+                "FNMR": 0.29657411553963275,
+                "TAR_at_FAR_1pct": 0.3456112852664577,
+                "N_genuine": 8932,
+                "N_impostor": 13195,
+                "FTA": 0.0,
+                "pares_descartados": 0,
+                "Tempo_inferencia_ms": 18.81235843148402,
+                "Tempo_total_com_preproc_ms": 24.357191891103398,
+                "Num_parametros": 1289376,
+                "Tamanho_modelo_MB": 5.053572654724121
+            },
+            "123": {
+                "EER": 0.24865565469013742,
+                "AUC": 0.8289586538822142,
+                "Threshold": 0.447739839553833,
+                "FMR": 0.0782114437286851,
+                "FNMR": 0.40584415584415584,
+                "TAR_at_FAR_1pct": 0.3648678907299597,
+                "N_genuine": 8932,
+                "N_impostor": 13195,
+                "FTA": 0.0,
+                "pares_descartados": 0,
+                "Tempo_inferencia_ms": 16.854244865371744,
+                "Tempo_total_com_preproc_ms": 21.24146635102822,
+                "Num_parametros": 1289376,
+                "Tamanho_modelo_MB": 5.053820610046387
+            },
+            "2026": {
+                "EER": 0.26862361776154875,
+                "AUC": 0.8052226692960514,
+                "Threshold": 0.4411177933216095,
+                "FMR": 0.08200075786282683,
+                "FNMR": 0.42901925660546353,
+                "TAR_at_FAR_1pct": 0.32601880877742945,
+                "N_genuine": 8932,
+                "N_impostor": 13195,
+                "FTA": 0.0,
+                "pares_descartados": 0,
+                "Tempo_inferencia_ms": 15.98195221706344,
+                "Tempo_total_com_preproc_ms": 20.24474111388952,
+                "Num_parametros": 1289376,
+                "Tamanho_modelo_MB": 5.054068565368652
+            }
+        },
+        "mean": {
+            "EER": 0.25946696981179734,
+            "AUC": 0.8149908468746586,
+            "Threshold": 0.4363468984762828,
+            "FMR": 0.12204117721359099,
+            "FNMR": 0.37714584266308404,
+            "TAR_at_FAR_1pct": 0.3454993282579489,
+            "N_genuine": 8932.0,
+            "N_impostor": 13195.0,
+            "FTA": 0.0,
+            "pares_descartados": 0.0,
+            "Tempo_inferencia_ms": 17.216185171306403,
+            "Tempo_total_com_preproc_ms": 21.94779978534038,
+            "Num_parametros": 1289376.0,
+            "Tamanho_modelo_MB": 5.053820610046387
+        },
+        "std": {
+            "EER": 0.010086294160525736,
+            "AUC": 0.012412771913396575,
+            "Threshold": 0.014384542671968857,
+            "FMR": 0.07265838993475422,
+            "FNMR": 0.07073276279466335,
+            "TAR_at_FAR_1pct": 0.019424782956764745,
+            "N_genuine": 0.0,
+            "N_impostor": 0.0,
+            "FTA": 0.0,
+            "pares_descartados": 0.0,
+            "Tempo_inferencia_ms": 1.4495000598319119,
+            "Tempo_total_com_preproc_ms": 2.145283906403104,
+            "Num_parametros": 0.0,
+            "Tamanho_modelo_MB": 0.000247955322265625
+        }
+    }
+}
